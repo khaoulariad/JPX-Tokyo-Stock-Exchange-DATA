@@ -37,6 +37,7 @@ The database created will be as follow :
 
 ## Tests 
 We will use **pytest** to simplify the process of writing and running tests, by running some select queries on the database we created.
+<img src=https://github.com/khaoulariad/JPX-Tokyo-Stock-Exchange-DATA/blob/main/tests.png>
 
 ## Visualization
 We will focus on the stocks for this part and creates a framework for a PM to manipulate the data especially ploting the for a certain stock his price evolution (low, high, close, open), to make it easier to identify trends and insights.  
