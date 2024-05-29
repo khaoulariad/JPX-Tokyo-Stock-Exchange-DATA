@@ -36,6 +36,7 @@ The database created will be as follow :
 <img src=https://github.com/khaoulariad/JPX-Tokyo-Stock-Exchange-DATA/blob/main/diagram%20eer.drawio.png >
 
 ## Tests 
+We will use **pytest** to simplify the process of writing and running tests, by running some select queries on the database we created.
 
 ## Visualization
 We will focus on the stocks for this part and creates a framework for a PM to manipulate the data especially ploting the for a certain stock his price evolution (low, high, close, open), to make it easier to identify trends and insights.  
@@ -48,7 +49,11 @@ To downlowd data, create datbase and populate it :
 ```sh
 $ python etlPipeline.py
 ```
-The program will take around 10-12 mins only for the initial setup (creating the table for options.csv file takes the most of it), after that it runs rapidly.  
+The program will take around 10-12 mins only for the initial setup (creating the table for options.csv file takes the most of it), after that it runs rapidly.   
+Then we can run the test file to check if the tables were indeed populated :
+```sh
+$ pytest tests/testDb.py
+```
 
 To display the dashboard :
 ```sh
