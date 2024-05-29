@@ -1,0 +1,10 @@
+{
+    "Competition": "jpx-tokyo-stock-exchange-prediction",
+    "ExtractionPath": "datasets/",
+    "DbUsername": "root",
+    "DbPassword": "123456",
+    "DbHost": "localhost",
+    "DbPort": "3306",
+    "DbName": "financialdata"
+
+}
