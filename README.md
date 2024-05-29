@@ -32,6 +32,15 @@ Given the manageable size of the current dataset, we could have opted to keep th
 
 To ensure a production-ready solution, we chose to use a **MySQL** database. MySQL efficiently handles large datasets with various storage engines that optimize performance and will allow easy updates whenever new data needs to be reloaded from the source.  
 We will focus on the train_data folder and create tables for each csv file we have.
+The database created will be as follow : 
+<img src=https://github.com/khaoulariad/JPX-Tokyo-Stock-Exchange-DATA/blob/main/diagram%20eer.drawio.png >
+
+## Tests 
+
+## Visualization
+We will focus on the stocks for this part and creates a framework for a PM to manipulate the data especially ploting the for a certain stock his price evolution (low, high, close, open), to make it easier to identify trends and insights.  
+We will use **Streamlit** to create a simple web app for our data visualisation. It offers an interactive exploration: users can interact with the data and see the results instantly, enhancing the exploration and analysis process.
+<img src=https://github.com/khaoulariad/JPX-Tokyo-Stock-Exchange-DATA/blob/main/dashboard.png >
 
 ## How To Use
 First make sure to follow the requirements.  
